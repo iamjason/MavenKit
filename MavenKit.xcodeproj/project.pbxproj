@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46ED10C11A5F3C5F001845DB /* MavenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46ED10C01A5F3C5F001845DB /* MavenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46ED10C71A5F3C5F001845DB /* MavenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46ED10BB1A5F3C5F001845DB /* MavenKit.framework */; };
+		46ED10CE1A5F3C5F001845DB /* MavenKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED10CD1A5F3C5F001845DB /* MavenKitTests.swift */; };
+		46ED10D91A5F3C7D001845DB /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED10D71A5F3C7D001845DB /* Fonts.swift */; };
+		46ED10DA1A5F3C7D001845DB /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED10D81A5F3C7D001845DB /* StyleKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46ED10C81A5F3C5F001845DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46ED10B21A5F3C5F001845DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46ED10BA1A5F3C5F001845DB;
+			remoteInfo = MavenKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46ED10BB1A5F3C5F001845DB /* MavenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MavenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ED10BF1A5F3C5F001845DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ED10C01A5F3C5F001845DB /* MavenKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MavenKit.h; sourceTree = "<group>"; };
+		46ED10C61A5F3C5F001845DB /* MavenKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MavenKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ED10CC1A5F3C5F001845DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ED10CD1A5F3C5F001845DB /* MavenKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MavenKitTests.swift; sourceTree = "<group>"; };
+		46ED10D71A5F3C7D001845DB /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		46ED10D81A5F3C7D001845DB /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46ED10B71A5F3C5F001845DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ED10C31A5F3C5F001845DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ED10C71A5F3C5F001845DB /* MavenKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46ED10B11A5F3C5F001845DB = {
+			isa = PBXGroup;
+			children = (
+				46ED10BD1A5F3C5F001845DB /* MavenKit */,
+				46ED10CA1A5F3C5F001845DB /* MavenKitTests */,
+				46ED10BC1A5F3C5F001845DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46ED10BC1A5F3C5F001845DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46ED10BB1A5F3C5F001845DB /* MavenKit.framework */,
+				46ED10C61A5F3C5F001845DB /* MavenKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46ED10BD1A5F3C5F001845DB /* MavenKit */ = {
+			isa = PBXGroup;
+			children = (
+				46ED10D71A5F3C7D001845DB /* Fonts.swift */,
+				46ED10D81A5F3C7D001845DB /* StyleKit.swift */,
+				46ED10C01A5F3C5F001845DB /* MavenKit.h */,
+				46ED10BE1A5F3C5F001845DB /* Supporting Files */,
+			);
+			path = MavenKit;
+			sourceTree = "<group>";
+		};
+		46ED10BE1A5F3C5F001845DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46ED10BF1A5F3C5F001845DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46ED10CA1A5F3C5F001845DB /* MavenKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				46ED10CD1A5F3C5F001845DB /* MavenKitTests.swift */,
+				46ED10CB1A5F3C5F001845DB /* Supporting Files */,
+			);
+			path = MavenKitTests;
+			sourceTree = "<group>";
+		};
+		46ED10CB1A5F3C5F001845DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46ED10CC1A5F3C5F001845DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46ED10B81A5F3C5F001845DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ED10C11A5F3C5F001845DB /* MavenKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46ED10BA1A5F3C5F001845DB /* MavenKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ED10D11A5F3C5F001845DB /* Build configuration list for PBXNativeTarget "MavenKit" */;
+			buildPhases = (
+				46ED10B61A5F3C5F001845DB /* Sources */,
+				46ED10B71A5F3C5F001845DB /* Frameworks */,
+				46ED10B81A5F3C5F001845DB /* Headers */,
+				46ED10B91A5F3C5F001845DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MavenKit;
+			productName = MavenKit;
+			productReference = 46ED10BB1A5F3C5F001845DB /* MavenKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46ED10C51A5F3C5F001845DB /* MavenKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ED10D41A5F3C5F001845DB /* Build configuration list for PBXNativeTarget "MavenKitTests" */;
+			buildPhases = (
+				46ED10C21A5F3C5F001845DB /* Sources */,
+				46ED10C31A5F3C5F001845DB /* Frameworks */,
+				46ED10C41A5F3C5F001845DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46ED10C91A5F3C5F001845DB /* PBXTargetDependency */,
+			);
+			name = MavenKitTests;
+			productName = MavenKitTests;
+			productReference = 46ED10C61A5F3C5F001845DB /* MavenKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46ED10B21A5F3C5F001845DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Maven Clinic Co.";
+				TargetAttributes = {
+					46ED10BA1A5F3C5F001845DB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					46ED10C51A5F3C5F001845DB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 46ED10B51A5F3C5F001845DB /* Build configuration list for PBXProject "MavenKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46ED10B11A5F3C5F001845DB;
+			productRefGroup = 46ED10BC1A5F3C5F001845DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46ED10BA1A5F3C5F001845DB /* MavenKit */,
+				46ED10C51A5F3C5F001845DB /* MavenKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46ED10B91A5F3C5F001845DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ED10C41A5F3C5F001845DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46ED10B61A5F3C5F001845DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ED10DA1A5F3C7D001845DB /* StyleKit.swift in Sources */,
+				46ED10D91A5F3C7D001845DB /* Fonts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ED10C21A5F3C5F001845DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ED10CE1A5F3C5F001845DB /* MavenKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46ED10C91A5F3C5F001845DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46ED10BA1A5F3C5F001845DB /* MavenKit */;
+			targetProxy = 46ED10C81A5F3C5F001845DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46ED10CF1A5F3C5F001845DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46ED10D01A5F3C5F001845DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46ED10D21A5F3C5F001845DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MavenKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46ED10D31A5F3C5F001845DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MavenKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46ED10D51A5F3C5F001845DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MavenKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46ED10D61A5F3C5F001845DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MavenKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46ED10B51A5F3C5F001845DB /* Build configuration list for PBXProject "MavenKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ED10CF1A5F3C5F001845DB /* Debug */,
+				46ED10D01A5F3C5F001845DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ED10D11A5F3C5F001845DB /* Build configuration list for PBXNativeTarget "MavenKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ED10D21A5F3C5F001845DB /* Debug */,
+				46ED10D31A5F3C5F001845DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ED10D41A5F3C5F001845DB /* Build configuration list for PBXNativeTarget "MavenKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ED10D51A5F3C5F001845DB /* Debug */,
+				46ED10D61A5F3C5F001845DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46ED10B21A5F3C5F001845DB /* Project object */;
+}
